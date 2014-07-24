@@ -1,0 +1,8 @@
+prefix=/home/samer/catkin_ws/devel
+
+Name: coop_towing
+Description: Description of coop_towing
+Version: 0.0.0
+Cflags: -I/home/samer/catkin_ws/devel/include -I/home/samer/catkin_ws/src/coop_towing/include
+Libs: -L/home/samer/catkin_ws/devel/lib -lcoop_towing
+Requires: roscpp rospy std_msgs message_runtime nav_msgs

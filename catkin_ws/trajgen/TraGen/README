@@ -1,0 +1,7 @@
+g++ -Wall -fPIC -c test1.cpp test2.cpp
+g++ -shared -Wl,-soname,libctest.so.1 -o libctest.so.1.0 test1.o test2.o
+ln -sf libctest.so.1.0 libctest.so
+ln -sf libctest.so.1.0 libctest.so.1
+g++ -Wall -L. prog.cpp -lctest -o prog
+export LD_LIBRARY_PATH=.
+./prog

@@ -1,0 +1,19 @@
+<launch>
+
+<node pkg="rosserial_python" type="serial_node.py" name="serial_node" output="screen">
+      <param name="~port" value="/dev/ttyACM0" />
+      <param name="~baud" value="9600" />
+</node>
+
+<node name="control" pkg="coop_towing" type="control" output="screen">
+      <arg name="calib_file" value="calib_file_name" />
+      <arg name="scarab_model" value="scarab_model_name" />
+</node> 
+<node name="trajgen" pkg="coop_towing" type="trajectory" output="screen">
+</node>
+<node name="vicon" pkg="vicon" type="vicon" output="screen">
+</node> 
+<node name="roboclaw" pkg="" type="" output="screen">
+</node> 
+
+</launch>

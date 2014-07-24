@@ -1,0 +1,45 @@
+#Dimensions for minimum derivatives and position, velocity,  acceleration, 
+#etc. are implied by the order of the lists containing values. The first
+#entry always corresponds to the first dimension (x), the second to (y), and
+#so on. The length of each list must be equal to Dimension in order to be 
+#parsed without error.
+
+Planning_Space:
+    Dimension: 3
+    Order: 7
+    Numerical: 1
+    Constraints_Per_Segment: 10
+    Tolerance: 1.0e-8
+    Minimize_Derivative: [0, 2, 4]
+    Maximum_Derivative: 4
+
+Waypoint_List: ["wp1", "wp2", "wp3"]
+Bound_List: ["b1", "b2"]
+
+wp1:
+    time: 0.0
+    waypoint: [[0, 0, 0], ["NaN", 0, 0], ["NaN", 0, 0], ["NaN", "NaN", 0],
+    ["NaN", "NaN", 0]]
+wp2:
+    time: 5.0
+    waypoint: [[5, 2.5, 0], ["NaN", "NaN", "NaN"], ["NaN", "NaN", "NaN"],
+    ["NaN", "NaN", "NaN"], ["NaN", "NaN", "NaN"]]
+wp3:
+    time: 11.0
+    waypoint: [[0, 5, 10], ["NaN", 0, 0], ["NaN", 0, 0], ["NaN", "NaN", 0],
+    ["NaN", "NaN", 0]]
+
+b1:
+    ti: 3.0
+    tf: 8.0
+    derivative: 0
+    dimension: 1
+    type: "lower"
+    value: 3
+b2:
+    ti: 0.0
+    tf: 11.0
+    derivative: 0
+    dimension: 3
+    type: "lower"
+    value: 0

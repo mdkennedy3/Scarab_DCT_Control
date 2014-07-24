@@ -1,0 +1,8 @@
+prefix=/home/samer/catkin_ws/devel
+
+Name: tf_throttle
+Description: Description of tf_throttle
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/samer/catkin_ws/devel/lib 
+Requires: geometry_msgs roscpp tf

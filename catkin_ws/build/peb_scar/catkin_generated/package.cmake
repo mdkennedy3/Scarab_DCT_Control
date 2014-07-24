@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "peb_scar")
+set(peb_scar_MAINTAINER "bcharrow <bcharrow@seas.upenn.edu>")
+set(peb_scar_DEPRECATED "")
+set(peb_scar_VERSION "0.0.0")
+set(peb_scar_BUILD_DEPENDS "roscpp" "message_generation" "std_msgs")
+set(peb_scar_RUN_DEPENDS "roscpp" "message_runtime" "std_msgs")
+set(peb_scar_BUILDTOOL_DEPENDS "catkin")

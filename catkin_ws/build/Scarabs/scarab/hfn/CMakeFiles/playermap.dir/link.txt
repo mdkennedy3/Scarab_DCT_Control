@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security  -frounding-math -O3 -DNDEBUG   -shared -Wl,-soname,libplayermap.so -o /home/samer/catkin_ws/devel/lib/libplayermap.so CMakeFiles/playermap.dir/src/map.c.o CMakeFiles/playermap.dir/src/rosmap.cpp.o -lCGAL_Core -lCGAL -lgmpxx -lmpfr -lgmp -lboost_thread-mt 

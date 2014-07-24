@@ -1,0 +1,8 @@
+prefix=/home/samer/catkin_ws/devel
+
+Name: scarab
+Description: Description of scarab
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/samer/catkin_ws/devel/lib 
+Requires: 

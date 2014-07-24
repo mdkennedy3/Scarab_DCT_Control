@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/samer/catkin_ws/src/Scarabs/scarab/mesh80211s/include/station.h
+netlink/msg.h
+-
+netlink/genl/family.h
+-
+
+/home/samer/catkin_ws/src/Scarabs/scarab/mesh80211s/src/station.c
+errno.h
+-
+stdio.h
+-
+string.h
+-
+net/if.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+stdbool.h
+-
+netlink/genl/genl.h
+-
+netlink/genl/ctrl.h
+-
+netlink/attr.h
+-
+linux/nl80211.h
+-
+station.h
+/home/samer/catkin_ws/src/Scarabs/scarab/mesh80211s/src/station.h
+

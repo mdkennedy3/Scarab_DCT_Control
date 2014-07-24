@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "laser_odom")
+set(laser_odom_MAINTAINER "bcharrow <bcharrow@seas.upenn.edu>")
+set(laser_odom_DEPRECATED "")
+set(laser_odom_VERSION "0.0.0")
+set(laser_odom_BUILD_DEPENDS "roscpp" "rosbag" "angles" "timeit" "tf" "sensor_msgs" "geometry_msgs" "visualization_msgs")
+set(laser_odom_RUN_DEPENDS "roscpp" "rosbag" "angles" "tf" "sensor_msgs" "geometry_msgs" "visualization_msgs")
+set(laser_odom_BUILDTOOL_DEPENDS "catkin")

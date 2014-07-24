@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "kinematic_sim")
+set(kinematic_sim_MAINTAINER "bcharrow <bcharrow@seas.upenn.edu>")
+set(kinematic_sim_DEPRECATED "")
+set(kinematic_sim_VERSION "0.0.0")
+set(kinematic_sim_BUILD_DEPENDS "roscpp" "tf" "geometry_msgs" "nav_msgs")
+set(kinematic_sim_RUN_DEPENDS "roscpp" "tf" "geometry_msgs" "nav_msgs")
+set(kinematic_sim_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "using_markers")
+set(using_markers_MAINTAINER "monroe <monroe@todo.todo>")
+set(using_markers_DEPRECATED "")
+set(using_markers_VERSION "0.0.0")
+set(using_markers_BUILD_DEPENDS "visualization_msgs" "roscpp")
+set(using_markers_RUN_DEPENDS "visualization_msgs" "roscpp")
+set(using_markers_BUILDTOOL_DEPENDS "catkin")
