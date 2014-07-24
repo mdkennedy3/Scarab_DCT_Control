@@ -1,0 +1,8 @@
+prefix=/home/monroe/catkin_ws/devel
+
+Name: laser_odom
+Description: Description of laser_odom
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/monroe/catkin_ws/devel/lib -llaser_odom
+Requires: roscpp rosbag angles tf sensor_msgs geometry_msgs visualization_msgs

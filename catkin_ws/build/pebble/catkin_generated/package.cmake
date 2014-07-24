@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pebble")
+set(pebble_MAINTAINER "mike <mike@todo.todo>")
+set(pebble_DEPRECATED "")
+set(pebble_VERSION "0.0.0")
+set(pebble_BUILD_DEPENDS "std_msgs" "roscpp" "message_generation")
+set(pebble_RUN_DEPENDS "std_msgs" "message_runtime" "roscpp")
+set(pebble_BUILDTOOL_DEPENDS "catkin")

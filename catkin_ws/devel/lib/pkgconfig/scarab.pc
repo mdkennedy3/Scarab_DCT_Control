@@ -1,0 +1,8 @@
+prefix=/home/monroe/catkin_ws/devel
+
+Name: scarab
+Description: Description of scarab
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/monroe/catkin_ws/devel/lib 
+Requires: 

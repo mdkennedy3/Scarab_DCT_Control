@@ -1,0 +1,8 @@
+prefix=/home/monroe/catkin_ws/devel
+
+Name: kinematic_sim
+Description: Description of kinematic_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/monroe/catkin_ws/devel/lib 
+Requires: roscpp

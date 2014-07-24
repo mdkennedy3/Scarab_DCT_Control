@@ -1,0 +1,8 @@
+prefix=/home/monroe/catkin_ws/install
+
+Name: laser_simulator
+Description: Description of laser_simulator
+Version: 0.0.0
+Cflags: -I/home/monroe/catkin_ws/install/include
+Libs: -L/home/monroe/catkin_ws/install/lib -llaser_simlib
+Requires: roscpp nav_msgs sensor_msgs geometry_msgs rosbag tf message_runtime

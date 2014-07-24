@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "tf_throttle")
+set(tf_throttle_MAINTAINER "philip <philip@todo.todo>")
+set(tf_throttle_DEPRECATED "")
+set(tf_throttle_VERSION "0.0.0")
+set(tf_throttle_BUILD_DEPENDS "roscpp" "geometry_msgs" "tf")
+set(tf_throttle_RUN_DEPENDS "roscpp" "geometry_msgs" "tf")
+set(tf_throttle_BUILDTOOL_DEPENDS "catkin")

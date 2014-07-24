@@ -1,0 +1,9 @@
+<launch>
+  <node name="bridge" pkg="rosbridge_server" type="rosbridge_websocket" />
+  <node name="server" pkg="pebble" type="pebble_server" />
+
+  <param name="item1" value="fly"/>
+  <param name="item2" value="land"/>
+  <param name="service1" value="/quad/fly"/>
+  <param name="service2" value="/quad/land"/>
+</launch>

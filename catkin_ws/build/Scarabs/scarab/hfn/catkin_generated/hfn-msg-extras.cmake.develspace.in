@@ -1,0 +1,2 @@
+set(hfn_MESSAGE_FILES "/home/monroe/catkin_ws/devel/share/hfn/msg/MoveAction.msg;/home/monroe/catkin_ws/devel/share/hfn/msg/MoveActionGoal.msg;/home/monroe/catkin_ws/devel/share/hfn/msg/MoveActionResult.msg;/home/monroe/catkin_ws/devel/share/hfn/msg/MoveActionFeedback.msg;/home/monroe/catkin_ws/devel/share/hfn/msg/MoveGoal.msg;/home/monroe/catkin_ws/devel/share/hfn/msg/MoveResult.msg;/home/monroe/catkin_ws/devel/share/hfn/msg/MoveFeedback.msg")
+set(hfn_SERVICE_FILES "")

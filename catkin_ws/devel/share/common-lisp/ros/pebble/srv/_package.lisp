@@ -1,0 +1,15 @@
+(cl:defpackage pebble-srv
+  (:use )
+  (:export
+   "GETMENU"
+   "<GETMENU-REQUEST>"
+   "GETMENU-REQUEST"
+   "<GETMENU-RESPONSE>"
+   "GETMENU-RESPONSE"
+   "CALLMENU"
+   "<CALLMENU-REQUEST>"
+   "CALLMENU-REQUEST"
+   "<CALLMENU-RESPONSE>"
+   "CALLMENU-RESPONSE"
+  ))
+

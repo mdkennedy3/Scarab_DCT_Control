@@ -1,0 +1,18 @@
+<launch>
+  <node name="bridge" pkg="rosbridge_server" type="rosbridge_websocket" />
+  <node name="server" pkg="pebble" type="pebble_server" />
+  <node name="peb_scar" pkg="peb_scar" type="peb_scar_node" />
+
+  <param name="item1" value="up"/>
+  <param name="item2" value="down"/>
+  <param name="item3" value="left"/>
+  <param name="item4" value="right"/>
+  <param name="item5" value="clear"/>
+  <param name="item6" value="quit"/>
+  <param name="service1" value="/peb_scar/up"/>
+  <param name="service2" value="/peb_scar/down"/>
+  <param name="service3" value="/peb_scar/left"/>
+  <param name="service4" value="/peb_scar/right"/>
+  <param name="service5" value="/peb_scar/clear"/>
+  <param name="service6" value="/peb_scar/quit"/>
+</launch>
