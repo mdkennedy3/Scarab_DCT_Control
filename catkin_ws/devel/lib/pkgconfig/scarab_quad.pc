@@ -1,0 +1,8 @@
+prefix=/home/monroe/catkin_ws/devel
+
+Name: scarab_quad
+Description: Description of scarab_quad
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/monroe/catkin_ws/devel/lib -lscarab_quad
+Requires: roscpp rospy std_msgs

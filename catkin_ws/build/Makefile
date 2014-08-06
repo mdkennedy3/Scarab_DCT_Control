@@ -533,7 +533,7 @@ actionlib_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 #=============================================================================
@@ -546,7 +546,7 @@ actionlib_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 #=============================================================================
@@ -559,7 +559,7 @@ actionlib_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/actionlib_generate_messages_py.dir/build.make Scarabs/scarab/hfn/CMakeFiles/actionlib_generate_messages_py.dir/build
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/actionlib_generate_messages_py.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 #=============================================================================
@@ -572,7 +572,7 @@ actionlib_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -585,7 +585,7 @@ actionlib_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -598,8 +598,333 @@ actionlib_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make Scarabs/scarab/hfn/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named calibrate
+
+# Build rule for target.
+calibrate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 calibrate
+.PHONY : calibrate
+
+# fast build rule for target.
+calibrate/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/calibrate.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/calibrate.dir/build
+.PHONY : calibrate/fast
+
+#=============================================================================
+# Target rules for targets named control
+
+# Build rule for target.
+control: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 control
+.PHONY : control
+
+# fast build rule for target.
+control/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/control.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/control.dir/build
+.PHONY : control/fast
+
+#=============================================================================
+# Target rules for targets named coop_towing_gencpp
+
+# Build rule for target.
+coop_towing_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 coop_towing_gencpp
+.PHONY : coop_towing_gencpp
+
+# fast build rule for target.
+coop_towing_gencpp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_gencpp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_gencpp.dir/build
+.PHONY : coop_towing_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named coop_towing_generate_messages
+
+# Build rule for target.
+coop_towing_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 coop_towing_generate_messages
+.PHONY : coop_towing_generate_messages
+
+# fast build rule for target.
+coop_towing_generate_messages/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_generate_messages.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_generate_messages.dir/build
+.PHONY : coop_towing_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named coop_towing_generate_messages_cpp
+
+# Build rule for target.
+coop_towing_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 coop_towing_generate_messages_cpp
+.PHONY : coop_towing_generate_messages_cpp
+
+# fast build rule for target.
+coop_towing_generate_messages_cpp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_generate_messages_cpp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_generate_messages_cpp.dir/build
+.PHONY : coop_towing_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named coop_towing_generate_messages_lisp
+
+# Build rule for target.
+coop_towing_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 coop_towing_generate_messages_lisp
+.PHONY : coop_towing_generate_messages_lisp
+
+# fast build rule for target.
+coop_towing_generate_messages_lisp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_generate_messages_lisp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_generate_messages_lisp.dir/build
+.PHONY : coop_towing_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named coop_towing_generate_messages_py
+
+# Build rule for target.
+coop_towing_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 coop_towing_generate_messages_py
+.PHONY : coop_towing_generate_messages_py
+
+# fast build rule for target.
+coop_towing_generate_messages_py/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_generate_messages_py.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_generate_messages_py.dir/build
+.PHONY : coop_towing_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named coop_towing_genlisp
+
+# Build rule for target.
+coop_towing_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 coop_towing_genlisp
+.PHONY : coop_towing_genlisp
+
+# fast build rule for target.
+coop_towing_genlisp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_genlisp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_genlisp.dir/build
+.PHONY : coop_towing_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named coop_towing_genpy
+
+# Build rule for target.
+coop_towing_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 coop_towing_genpy
+.PHONY : coop_towing_genpy
+
+# fast build rule for target.
+coop_towing_genpy/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_genpy.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/coop_towing_genpy.dir/build
+.PHONY : coop_towing_genpy/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_cpp
+
+# Build rule for target.
+geometry_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_lisp
+
+# Build rule for target.
+geometry_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_py
+
+# Build rule for target.
+geometry_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_py
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_cpp
+
+# Build rule for target.
+nav_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_cpp
+.PHONY : nav_msgs_generate_messages_cpp
+
+# fast build rule for target.
+nav_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+.PHONY : nav_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_lisp
+
+# Build rule for target.
+nav_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_lisp
+.PHONY : nav_msgs_generate_messages_lisp
+
+# fast build rule for target.
+nav_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+.PHONY : nav_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_py
+
+# Build rule for target.
+nav_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_py
+.PHONY : nav_msgs_generate_messages_py
+
+# fast build rule for target.
+nav_msgs_generate_messages_py/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+.PHONY : nav_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_cpp
+
+# Build rule for target.
+sensor_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_lisp
+
+# Build rule for target.
+sensor_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_py
+
+# Build rule for target.
+sensor_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named tf2_msgs_generate_messages_cpp
+
+# Build rule for target.
+tf2_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_cpp
+.PHONY : tf2_msgs_generate_messages_cpp
+
+# fast build rule for target.
+tf2_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+.PHONY : tf2_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named tf2_msgs_generate_messages_lisp
+
+# Build rule for target.
+tf2_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_lisp
+.PHONY : tf2_msgs_generate_messages_lisp
+
+# fast build rule for target.
+tf2_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+.PHONY : tf2_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named tf2_msgs_generate_messages_py
+
+# Build rule for target.
+tf2_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_py
+.PHONY : tf2_msgs_generate_messages_py
+
+# fast build rule for target.
+tf2_msgs_generate_messages_py/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+.PHONY : tf2_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named tf_generate_messages_cpp
+
+# Build rule for target.
+tf_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_cpp
+.PHONY : tf_generate_messages_cpp
+
+# fast build rule for target.
+tf_generate_messages_cpp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/tf_generate_messages_cpp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/tf_generate_messages_cpp.dir/build
+.PHONY : tf_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named tf_generate_messages_lisp
+
+# Build rule for target.
+tf_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_lisp
+.PHONY : tf_generate_messages_lisp
+
+# fast build rule for target.
+tf_generate_messages_lisp/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/tf_generate_messages_lisp.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/tf_generate_messages_lisp.dir/build
+.PHONY : tf_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named tf_generate_messages_py
+
+# Build rule for target.
+tf_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_py
+.PHONY : tf_generate_messages_py
+
+# fast build rule for target.
+tf_generate_messages_py/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/tf_generate_messages_py.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/tf_generate_messages_py.dir/build
+.PHONY : tf_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named trajgen
+
+# Build rule for target.
+trajgen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajgen
+.PHONY : trajgen
+
+# fast build rule for target.
+trajgen/fast:
+	$(MAKE) -f Scarabs/scarab/coop_towing/CMakeFiles/trajgen.dir/build.make Scarabs/scarab/coop_towing/CMakeFiles/trajgen.dir/build
+.PHONY : trajgen/fast
 
 #=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_cpp
@@ -639,45 +964,6 @@ dynamic_reconfigure_generate_messages_py: cmake_check_build_system
 dynamic_reconfigure_generate_messages_py/fast:
 	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make Scarabs/scarab/hfn/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_cpp
-
-# Build rule for target.
-geometry_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_lisp
-
-# Build rule for target.
-geometry_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_py
-
-# Build rule for target.
-geometry_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_py
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make Scarabs/scarab/hfn/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named hfn
@@ -810,45 +1096,6 @@ hfnlib/fast:
 .PHONY : hfnlib/fast
 
 #=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_cpp
-
-# Build rule for target.
-nav_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_cpp
-.PHONY : nav_msgs_generate_messages_cpp
-
-# fast build rule for target.
-nav_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
-.PHONY : nav_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_lisp
-
-# Build rule for target.
-nav_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_lisp
-.PHONY : nav_msgs_generate_messages_lisp
-
-# fast build rule for target.
-nav_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
-.PHONY : nav_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_py
-
-# Build rule for target.
-nav_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_py
-.PHONY : nav_msgs_generate_messages_py
-
-# fast build rule for target.
-nav_msgs_generate_messages_py/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make Scarabs/scarab/hfn/CMakeFiles/nav_msgs_generate_messages_py.dir/build
-.PHONY : nav_msgs_generate_messages_py/fast
-
-#=============================================================================
 # Target rules for targets named playermap
 
 # Build rule for target.
@@ -860,123 +1107,6 @@ playermap: cmake_check_build_system
 playermap/fast:
 	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/playermap.dir/build.make Scarabs/scarab/hfn/CMakeFiles/playermap.dir/build
 .PHONY : playermap/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_cpp
-
-# Build rule for target.
-sensor_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_lisp
-
-# Build rule for target.
-sensor_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_py
-
-# Build rule for target.
-sensor_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make Scarabs/scarab/hfn/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named tf2_msgs_generate_messages_cpp
-
-# Build rule for target.
-tf2_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_cpp
-.PHONY : tf2_msgs_generate_messages_cpp
-
-# fast build rule for target.
-tf2_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
-.PHONY : tf2_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named tf2_msgs_generate_messages_lisp
-
-# Build rule for target.
-tf2_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_lisp
-.PHONY : tf2_msgs_generate_messages_lisp
-
-# fast build rule for target.
-tf2_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
-.PHONY : tf2_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named tf2_msgs_generate_messages_py
-
-# Build rule for target.
-tf2_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_py
-.PHONY : tf2_msgs_generate_messages_py
-
-# fast build rule for target.
-tf2_msgs_generate_messages_py/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make Scarabs/scarab/hfn/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
-.PHONY : tf2_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named tf_generate_messages_cpp
-
-# Build rule for target.
-tf_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_cpp
-.PHONY : tf_generate_messages_cpp
-
-# fast build rule for target.
-tf_generate_messages_cpp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/tf_generate_messages_cpp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/tf_generate_messages_cpp.dir/build
-.PHONY : tf_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named tf_generate_messages_lisp
-
-# Build rule for target.
-tf_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_lisp
-.PHONY : tf_generate_messages_lisp
-
-# fast build rule for target.
-tf_generate_messages_lisp/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/tf_generate_messages_lisp.dir/build.make Scarabs/scarab/hfn/CMakeFiles/tf_generate_messages_lisp.dir/build
-.PHONY : tf_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named tf_generate_messages_py
-
-# Build rule for target.
-tf_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_py
-.PHONY : tf_generate_messages_py
-
-# fast build rule for target.
-tf_generate_messages_py/fast:
-	$(MAKE) -f Scarabs/scarab/hfn/CMakeFiles/tf_generate_messages_py.dir/build.make Scarabs/scarab/hfn/CMakeFiles/tf_generate_messages_py.dir/build
-.PHONY : tf_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named kinematic_sim
@@ -1850,6 +1980,110 @@ _catkin_empty_exported_target/fast:
 .PHONY : _catkin_empty_exported_target/fast
 
 #=============================================================================
+# Target rules for targets named controlquad
+
+# Build rule for target.
+controlquad: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 controlquad
+.PHONY : controlquad
+
+# fast build rule for target.
+controlquad/fast:
+	$(MAKE) -f Scarabs/scarab/scarab_quad/CMakeFiles/controlquad.dir/build.make Scarabs/scarab/scarab_quad/CMakeFiles/controlquad.dir/build
+.PHONY : controlquad/fast
+
+#=============================================================================
+# Target rules for targets named scarab_quad_gencpp
+
+# Build rule for target.
+scarab_quad_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scarab_quad_gencpp
+.PHONY : scarab_quad_gencpp
+
+# fast build rule for target.
+scarab_quad_gencpp/fast:
+	$(MAKE) -f Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_gencpp.dir/build.make Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_gencpp.dir/build
+.PHONY : scarab_quad_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named scarab_quad_generate_messages
+
+# Build rule for target.
+scarab_quad_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scarab_quad_generate_messages
+.PHONY : scarab_quad_generate_messages
+
+# fast build rule for target.
+scarab_quad_generate_messages/fast:
+	$(MAKE) -f Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_generate_messages.dir/build.make Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_generate_messages.dir/build
+.PHONY : scarab_quad_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named scarab_quad_generate_messages_cpp
+
+# Build rule for target.
+scarab_quad_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scarab_quad_generate_messages_cpp
+.PHONY : scarab_quad_generate_messages_cpp
+
+# fast build rule for target.
+scarab_quad_generate_messages_cpp/fast:
+	$(MAKE) -f Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_generate_messages_cpp.dir/build.make Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_generate_messages_cpp.dir/build
+.PHONY : scarab_quad_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named scarab_quad_generate_messages_lisp
+
+# Build rule for target.
+scarab_quad_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scarab_quad_generate_messages_lisp
+.PHONY : scarab_quad_generate_messages_lisp
+
+# fast build rule for target.
+scarab_quad_generate_messages_lisp/fast:
+	$(MAKE) -f Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_generate_messages_lisp.dir/build.make Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_generate_messages_lisp.dir/build
+.PHONY : scarab_quad_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named scarab_quad_generate_messages_py
+
+# Build rule for target.
+scarab_quad_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scarab_quad_generate_messages_py
+.PHONY : scarab_quad_generate_messages_py
+
+# fast build rule for target.
+scarab_quad_generate_messages_py/fast:
+	$(MAKE) -f Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_generate_messages_py.dir/build.make Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_generate_messages_py.dir/build
+.PHONY : scarab_quad_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named scarab_quad_genlisp
+
+# Build rule for target.
+scarab_quad_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scarab_quad_genlisp
+.PHONY : scarab_quad_genlisp
+
+# fast build rule for target.
+scarab_quad_genlisp/fast:
+	$(MAKE) -f Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_genlisp.dir/build.make Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_genlisp.dir/build
+.PHONY : scarab_quad_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named scarab_quad_genpy
+
+# Build rule for target.
+scarab_quad_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scarab_quad_genpy
+.PHONY : scarab_quad_genpy
+
+# fast build rule for target.
+scarab_quad_genpy/fast:
+	$(MAKE) -f Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_genpy.dir/build.make Scarabs/scarab/scarab_quad/CMakeFiles/scarab_quad_genpy.dir/build
+.PHONY : scarab_quad_genpy/fast
+
+#=============================================================================
 # Target rules for targets named joy_to_twist
 
 # Build rule for target.
@@ -1949,12 +2183,34 @@ help:
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_py"
-	@echo "... dynamic_reconfigure_generate_messages_cpp"
-	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... dynamic_reconfigure_generate_messages_py"
+	@echo "... calibrate"
+	@echo "... control"
+	@echo "... coop_towing_gencpp"
+	@echo "... coop_towing_generate_messages"
+	@echo "... coop_towing_generate_messages_cpp"
+	@echo "... coop_towing_generate_messages_lisp"
+	@echo "... coop_towing_generate_messages_py"
+	@echo "... coop_towing_genlisp"
+	@echo "... coop_towing_genpy"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... nav_msgs_generate_messages_cpp"
+	@echo "... nav_msgs_generate_messages_lisp"
+	@echo "... nav_msgs_generate_messages_py"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... tf2_msgs_generate_messages_cpp"
+	@echo "... tf2_msgs_generate_messages_lisp"
+	@echo "... tf2_msgs_generate_messages_py"
+	@echo "... tf_generate_messages_cpp"
+	@echo "... tf_generate_messages_lisp"
+	@echo "... tf_generate_messages_py"
+	@echo "... trajgen"
+	@echo "... dynamic_reconfigure_generate_messages_cpp"
+	@echo "... dynamic_reconfigure_generate_messages_lisp"
+	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... hfn"
 	@echo "... hfn_gencfg"
 	@echo "... hfn_gencpp"
@@ -1965,19 +2221,7 @@ help:
 	@echo "... hfn_genlisp"
 	@echo "... hfn_genpy"
 	@echo "... hfnlib"
-	@echo "... nav_msgs_generate_messages_cpp"
-	@echo "... nav_msgs_generate_messages_lisp"
-	@echo "... nav_msgs_generate_messages_py"
 	@echo "... playermap"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_py"
-	@echo "... tf2_msgs_generate_messages_cpp"
-	@echo "... tf2_msgs_generate_messages_lisp"
-	@echo "... tf2_msgs_generate_messages_py"
-	@echo "... tf_generate_messages_cpp"
-	@echo "... tf_generate_messages_lisp"
-	@echo "... tf_generate_messages_py"
 	@echo "... kinematic_sim"
 	@echo "... laser_odom"
 	@echo "... laser_odom_bag"
@@ -2045,6 +2289,14 @@ help:
 	@echo "... roboclaw_node"
 	@echo "... roboclaw_restart"
 	@echo "... _catkin_empty_exported_target"
+	@echo "... controlquad"
+	@echo "... scarab_quad_gencpp"
+	@echo "... scarab_quad_generate_messages"
+	@echo "... scarab_quad_generate_messages_cpp"
+	@echo "... scarab_quad_generate_messages_lisp"
+	@echo "... scarab_quad_generate_messages_py"
+	@echo "... scarab_quad_genlisp"
+	@echo "... scarab_quad_genpy"
 	@echo "... joy_to_twist"
 	@echo "... key_to_twist"
 	@echo "... tf_throttle"
